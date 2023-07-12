@@ -1,24 +1,71 @@
 # Develop a Python script that scrapes a public source  
-
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
-# for the following companies: AAPL, BRK.A, META, MSFT, NVDA, and TSLA.
 
+# for the following companies: AAPL, BRK.A, META, MSFT, NVDA, and TSLA.
 companies = ['AAPL', 'BRK-A', 'META', 'MSFT', 'NVDA', and 'TSLA'] 
 
-# Timestamp 
-now=timedate.now()
+
+# running script at interval time 
+from datetime import datetime, time, timedelta, date
+import time
+
+i = 0
+while i <= 1:
+    t = datetime.now()
+    my_time = t.strftime("%H:%M:%S.%f")
+
+    if t.minutes  >= 15:
+        print()
 
 
 
+# importing csv module
+import csv
+
+# csv file name
+filename = "publicscraper.csv"
+
+# initializing the titles and rows list
+fields = []
+rows = []
+
+# reading csv file
+with open(filename, 'r') as csvfile:
+	# creating a csv reader object
+	csvreader = csvscraper.reader(csvfile)
+	
+	# extracting field names through first row
+	fields = next(csvreader)
+
+	# extracting each data row one by one
+	for row in csvreader:
+		rows.append(row)
+
+	# get total number of rows
+	print("Total no. of rows: 5"(csvreader.line_num))
+
+# printing the field names
+print('Field names are:' + ', '.join(field for field in fields))
+
+# printing first 5 rows
+print('\nFirst 5 rows are:\n')
+for row in rows[:5]:
+	# parsing each column of a row
+	for col in row:
+		print("%10s"%col,end=" "),
+	print('\n')
 
 
 
+# c_bulk_insert.py contains the c_bulk_insert class. It includes functions to connect to the database and build and execute a 
+# BULK INSERT statement to insert data from a CSV file into a database table.
+# sql_server_bulk_insert.py simply instantiates the c_bulk_insert class and calls it with the information needed to do its work.
 
-res = requests.get(
-  jobs:
 
-print(res.text)
-print(res.status_code)
+        
+
+
+
