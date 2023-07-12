@@ -1,0 +1,24 @@
+# Develop a Python script that scrapes a public source  
+
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+
+# for the following companies: AAPL, BRK.A, META, MSFT, NVDA, and TSLA.
+
+companies = ['AAPL', 'BRK-A', 'META', 'MSFT', 'NVDA', and 'TSLA'] 
+
+# Timestamp 
+now=timedate.now()
+
+
+
+
+
+
+
+res = requests.get(
+  jobs:
+
+print(res.text)
+print(res.status_code)
