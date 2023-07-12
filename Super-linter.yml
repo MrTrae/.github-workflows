@@ -4,8 +4,8 @@ name: Super-Linter
 # Lint Code base 
  jobs : 
       runs-on: ubuntu-lastst 
-						- uses: actions/checkout@v2 
-						- uses: github/super-linter@v4
+      - uses: actions/checkout@v2 
+      - uses: github/super-linter@v4
 
 env: 
      DEFAULT_BRANCH: main
