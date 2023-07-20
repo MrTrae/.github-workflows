@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T15:17:05.963Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="rAjH4dLRokhFc6EDVkAB" version="21.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-20T15:39:23.181Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="6DPuXn4GrbHMfqq2qYG9" version="21.6.3" type="github" pages="3">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="724" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iwavzTBNV4cGk28W__6a-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="420" y="10" width="430" height="470" as="geometry" />
+          <mxGeometry x="420" y="5" width="430" height="470" as="geometry" />
         </mxCell>
         <mxCell id="iwavzTBNV4cGk28W__6a-5" value="Azure Monitor " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=west;rotation=0;gradientColor=#7ea6e0;" vertex="1" parent="iwavzTBNV4cGk28W__6a-4">
           <mxGeometry x="160" width="150" height="80" as="geometry" />
@@ -203,6 +203,14 @@
         <mxCell id="iwavzTBNV4cGk28W__6a-25" value="Intergrate - other systems or build other solutions that need to me monitored. " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iwavzTBNV4cGk28W__6a-4">
           <mxGeometry y="400" width="210" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L7pcR_rqle8EhHzeWiDz" name="Page-3">
+    <mxGraphModel dx="724" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
